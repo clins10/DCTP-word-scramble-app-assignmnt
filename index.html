@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redactr - Word Scramble App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+        <h2>Scramble App</h2>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Use Cases</a>
+        </nav>
+    </header>
+  <main>
+    <form id="scrambleForm">
+      <label for="original"><h4>Original Text:</h4>
+        <textarea type="text" name="original" id="original" rows="4" cols="50" required></textarea>
+        <span class="error" id="textError"></span>
+      </label>
+      <label for="words"><h4>Words to Scramble:</h4>
+        <input type="text" name="words" id="words" required /> 
+        <span class="error" id="wordError"></span>
+      </label>
+
+      <label for="choice">
+        <h4>Scramble Options:</h4> 
+        <select name="choice" id="choice">
+          <option value="****" selected>****</option>
+          <option value="????">????</option>
+          <option value="!!!!">!!!!</option>
+          <option value="00000">0000</option>
+          <option value="----">----</option>
+          <option value="####">####</option>
+        </select>
+      </label>
+        </select>
+      </label>
+      
+
+      <button type="submit" id="scramble" class="btn">scramble words</button>
+    </form>
+
+    <section>
+      <h3>scrambled Text</h3>
+      <div id="scrambledTextContainer">
+        
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
