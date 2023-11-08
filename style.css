@@ -24,7 +24,7 @@ header {
   margin: 20px auto;
   padding: 0 10px;
   border-radius: 10px;
-  box-shadow: 0 2px 1px 1px blue;
+  box-shadow: 0 2px 1px 1px mediumseagreen;
 }
 
 header h2 {
@@ -53,7 +53,7 @@ nav a:hover {
   display: block;
   margin: 20px 0;
   padding: 5px;
-  background-color: blue;
+  background-color: mediumseagreen;
   color: white;
   font-size: 1.2rem;
   font-weight: 600;
@@ -65,8 +65,8 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: blue;
+  background-color: mediumaquamarine;
+  color: whitesmoke;
 }
 
 label {
